@@ -15,5 +15,11 @@
 }
 .sidebar__searchContainer > input {
   border: none;
+  outline: none;
   margin-left: 10px;
+  width: 80%;
+  height: 35px;
+}
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: gray;
 }
