@@ -6,6 +6,24 @@ const SidebarChat = () => {
     <div className="sidebar__chat">
       <WhatsappContact />
       <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
+      <WhatsappContact />
     </div>
   );
 };
