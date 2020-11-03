@@ -11,9 +11,9 @@ const Chatheader = () => {
       <Avatar />
       <div className="chat__headerInfo">
         <h3>Clear the Chat</h3>
-        <p>last seen</p>
+        <p>last seen at...</p>
       </div>
-      <div>
+      <div className="chat__headerRight">
         <IconButton>
           <SearchIcon />
         </IconButton>
