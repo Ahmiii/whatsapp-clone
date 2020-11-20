@@ -1,11 +1,11 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar/Sidebar";
+import SidebarComponent from "./containers/Sidebar/Sidebar";
 import Chat from "./components/Chat/Chat";
 function App() {
   return (
     <div className="app">
       <div className="app__body">
-        <Sidebar />
+        <SidebarComponent />
         <Chat />
       </div>
     </div>

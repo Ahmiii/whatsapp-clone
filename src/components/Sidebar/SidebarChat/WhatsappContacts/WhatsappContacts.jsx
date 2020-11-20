@@ -1,12 +1,13 @@
 import React from "react";
 import { Avatar } from "@material-ui/core";
 import "./WhatsappContacts.css";
-const WhatsappContacts = () => {
+const WhatsappContacts = (props) => {
+  const { data } = props;
   return (
     <div className="sidebar__contact">
       <Avatar />
       <div className="sidebar__contactInfo">
-        <h2>Room Name</h2>
+        <h2>{data.data.name}</h2>
         <p>last message...</p>
       </div>
     </div>
