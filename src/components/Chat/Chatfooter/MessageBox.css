@@ -1,0 +1,26 @@
+.message__box > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.message__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  border-top: 1px solid lightgray;
+}
+.message__box > form {
+  display: flex;
+  flex: 1;
+}
+.message__box > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.message__box > form > button {
+  display: none;
+}
